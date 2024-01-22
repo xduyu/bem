@@ -1,0 +1,19 @@
+/* Figma Styles of your File */
+:root {
+    /* Colors */
+    --div: #161515;
+
+    /* Fonts */
+    --_18-font-family: LeagueSpartan-Regular, sans-serif;
+    --_18-font-size: 18px;
+    --_18-line-height: normal;
+    --_18-font-weight: 400;
+    --_18-font-style: normal;
+    --_24-font-family: LeagueSpartan-Regular, sans-serif;
+    --_24-font-size: 24px;
+    --_24-line-height: 186%;
+    --_24-font-weight: 400;
+    --_24-font-style: normal;
+
+    /* Effects */
+}

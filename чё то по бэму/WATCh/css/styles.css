@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    background: #F8F8F8;
+    min-height: 100vh;
+    padding-bottom: 168px;
+}
