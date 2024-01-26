@@ -36,3 +36,49 @@ p {
     min-height: 100vh;
     padding-bottom: 168px;
 }
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header__desc {
+    padding-top: 114px;
+    max-width: 630px;
+}
+
+.header__suptitle {
+    color: (#161515);
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 53px;
+}
+
+.title {
+    color: #272727;
+    font-size: 250px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.header__text {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    margin-bottom: 61px;
+}
+
+.buy {}
+
+.buy__link {
+    text-decoration: none;
+    display: inline-block;
+    background: #161515;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 25px 73px;
+}
