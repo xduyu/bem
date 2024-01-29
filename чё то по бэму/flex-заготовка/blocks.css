@@ -1,0 +1,31 @@
+.item:nth-child(1) {
+    background-color: blueviolet;
+}
+
+.item:nth-child(2) {
+    background-color: chocolate;
+}
+
+.item:nth-child(3) {
+    background-color: burlywood;
+}
+
+.item:nth-child(4) {
+    background-color: cornflowerblue;
+}
+
+.item:nth-child(5) {
+    background-color: #2be243;
+}
+
+.item:nth-child(6) {
+    background-color: #cc3c11;
+}
+
+.item:nth-child(7) {
+    background-color: #3814da;
+}
+
+.item:nth-child(8) {
+    background-color: #b41e82;
+}
