@@ -14,6 +14,15 @@ body {
     font-family: 'League Spartan', sans-serif;
 }
 
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
 h1,
 h2,
 h3,
@@ -28,7 +37,7 @@ p {
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .wrapper {
@@ -113,4 +122,26 @@ img {
 .header__img-wrap {
     width: 408px;
     flex-shrink: 0;
+}
+
+.products {
+    text-align: center;
+    padding: 43px 0px 142px 0px;
+}
+
+.product__content {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.product_title {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 84px;
 }
