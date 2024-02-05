@@ -1,0 +1,245 @@
+* {
+    box-sizing: border-box;
+}
+
+
+
+html,
+body {
+    height: 100%;
+}
+
+
+body {
+    font-family: 'League Spartan', sans-serif;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul>li {
+    list-style: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+.header {
+    background: #F8F8F8;
+    min-height: 100vh;
+    padding-bottom: 168px;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.header__container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.header__desc {
+    padding-top: 114px;
+    max-width: 630px;
+}
+
+.header__suptitle {
+    color: (#161515);
+    margin-bottom: 53px;
+}
+
+.suptitle {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.title {
+    color: #272727;
+    font-size: 250px;
+    font-weight: 300;
+    line-height: 1;
+    margin-bottom: 50px;
+}
+
+.header__text {
+    color: #161515;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 155%;
+    margin-bottom: 61px;
+}
+
+.buy {
+    display: flex;
+}
+
+.buy__link {
+    text-decoration: none;
+    display: inline-block;
+    background: #161515;
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 1;
+    padding: 25px 73px;
+}
+
+.buy__price {
+    padding: 16px 28px;
+    background: #FFF;
+    box-shadow: 0px 0px 28px 0px rgba(214, 214, 214, 0.75);
+    color: #272727;
+    text-align: center;
+    font-size: 32px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+}
+
+.header__img-wrap {
+    width: 408px;
+    flex-shrink: 0;
+}
+
+.products {
+    text-align: center;
+    padding: 43px 0px 142px 0px;
+}
+
+.product__content {
+    max-width: 530px;
+    margin: 0 auto;
+}
+
+.product_title {
+    color: rgb(0, 0, 0);
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: rgb(0, 0, 0);
+    font-size: 72px;
+    font-weight: 400;
+    margin-bottom: 84px;
+}
+
+.product__list{
+    max-width: 531px;
+}
+
+.product{
+    margin-bottom: 85px;
+}
+
+.product__img-wrap{
+    background: rgb(248, 248, 248);
+    max-width: 496px;
+    height: 630px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 67px;
+    margin-bottom: 67px;
+    /* background: rgb(248, 248, 248);
+    width: auto;
+    height: 630px; */
+}
+
+.product__img-img{
+    /* text-align: center; */
+}
+
+.product__desc{
+
+}
+
+.product__title{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 16px;
+
+
+    /* margin-top: 70px;
+    margin-bottom: 35px;
+    color: rgb(0, 0, 0);
+font-size: 32px;
+font-weight: 400;
+text-align: center; */
+}
+
+.product__text{
+    color: rgb(22, 21, 21);
+font-size: 32px;
+font-weight: 300;
+line-height: 155%;
+    /* margin-bottom: 95px;
+    color: rgb(22, 21, 21);
+font-size: 32px;
+font-weight: 300;
+text-align: center; */
+}
+
+/* .product__title{
+    color: rgb(0, 0, 0);
+    font-size: 32px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.product__text{
+    color: rgb(22, 21, 21);
+font-size: 32px;
+font-weight: 300;
+text-align: center;
+} */
+
+.products__desc{
+
+}
+
+.products__desc-title{
+    margin-bottom: 50px;
+}
+
+.products__desc-title::after{
+    content: '';
+    display: block;
+    height: 10px;
+    border-bottom: 1px solid rgb(112,112,112);
+    width: 178px;
+    margin: 0 auto;
+}
+
+
+
+.products__desc-text{
+
+}
+
+.products__desc-text a {
+
+}
